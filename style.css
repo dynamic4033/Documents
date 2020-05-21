@@ -1,16 +1,16 @@
 html{
   background-Color: black;
 }
-h3{
-  font-size :10px;
+h1{
+  font-size :35px;
   color: Cyan;
 }
-h3{
+h1{
   text-align : center;
 }
 .intro{
   background-Color: black;
-  font-size : 12px;
+  font-size : 17px;
   font-family: Arial;
   color: Gold;
   text-align : justify;
