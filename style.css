@@ -1,0 +1,185 @@
+html{
+  background-Color: black;
+}
+h3{
+  font-size :10px;
+  color: Cyan;
+}
+h3{
+  text-align : center;
+}
+.intro{
+  background-Color: black;
+  font-size : 12px;
+  font-family: Arial;
+  color: Gold;
+  text-align : justify;
+}
+#can{
+  position: absolute;
+  top : 200px;
+  left : 200px;
+  border : solid 7px gold;
+}
+#megaevolve{
+  position: absolute;
+  top: 165px; 
+  left : 615px;
+}
+.megaevolved{
+  position: absolute;
+  top : 200px;
+  left: 110px;
+}
+.greenscreenhead{
+  position : absolute;
+  top : 900px;
+  color: white;
+}
+#withoutGS{
+  position : absolute;
+  top : 1000px;
+  padding : 20px;
+  border : solid 10px lightgray;
+}
+#withGS{
+  position : absolute;
+  top : 1000px;
+  left : 600px;
+  padding : 20px;
+  border : solid 10px lightgray;
+}
+#greenbgcan{
+  position : absolute;
+  top : 1300px;
+  width : 400px;
+  height : 250px;
+  border : solid 2px white;
+}
+#greenfgcan{
+  position : absolute;
+  top : 1300px;
+  left : 500px;
+  width : 400px;
+  height : 250px;
+  border : solid 2px white;
+}
+#bgimage{
+  position : absolute;
+  top : 1570px;
+  left : 150px;
+}
+#fgimage{
+  position : absolute;
+  top : 1570px;
+  left : 650px;
+}
+#GSCON{
+  position : absolute;
+  top : 1600px;
+  left : 115px;
+}
+#GSRES{
+  position : absolute;
+  top : 1600px;
+  left : 650px;
+}
+#filter{
+  color:white;
+  position : absolute;
+  top : 1620px;
+}
+#filtercan{
+  position : absolute;
+  top : 1710px;
+  border : solid 2px white;
+  width : 400px;
+  height : 200px;
+}
+#finput{
+  position : absolute;
+  top : 1920px;
+  left : 90px;
+}
+#reset{
+  position : absolute;
+  top : 1920px;
+  left : 230px;
+}
+#Afilters{
+  position : absolute;
+  color: white;
+  font-size: 20px;
+  top : 1670px;
+  left : 730px;
+}
+#greyscale{
+   position : absolute;
+   top : 1710px;
+   left : 765px;
+}
+#rainbow{
+   position : absolute;
+   top : 1750px;
+   left : 770px;
+}
+#redfilter{
+   position : absolute;
+   top : 1790px;
+   left : 768px;
+}
+#circlefilter{
+   position : absolute;
+   top : 1830px;
+   left : 763px;
+}
+#blurfilter{
+   position : absolute;
+   top : 1870px;
+   left : 772px;
+}
+#div7{
+  position : absolute;
+   top : 1890px;
+   left : 737px;
+}
+#steganography{
+  color:white;
+  position: absolute;
+  top :1950px;
+}
+#mainimagecanvas{
+  border : solid 2px white;
+  position : absolute;
+  top : 2050px;
+  width : 400px;
+  height : 200px;
+}
+#hideimagecanvas{
+  border : solid 2px white;
+  position : absolute;
+  top : 2050px;
+  left: 500px;
+  width : 400px;
+  height : 200px;
+}
+#mainimage{
+   position : absolute;
+  top : 2270px;
+  left: 150px;
+}
+#hideimage{
+  position : absolute;
+  top : 2270px;
+  left: 660px;
+}
+#resetstega{
+  position : absolute;
+  top : 2300px;
+  left: 680px;
+}
+#Hide{
+  position : absolute;
+  top : 2300px;
+  left: 155px;
+}

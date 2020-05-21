@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  Shubham Bhagwat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link type="text/css" rel="style" href="style.css"/> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<html>
+  <head>
+    <title> Online Photo filter</title>
+    <link type="text/css" rel="stylesheet" href="style.css"> 
+    <script src = "https://www.dukelearntoprogram.com//course1/common/js/cs101/SimpleImage.js"></script>
+    <h3> Online Photo Filter Applier and Photo Hider</h3>
+  </head>
+  <body>
+    <div>
+    <div class = "intro">
+      <b>Hello everyone.</b> This is an Online photo filter applier and photo hider webpage. Using this webpage you can apply filters such as blurring, red scale, rainbow filter, and many other predesigned filters. Also this webpage comes with an online GreenScreen converter using which you can convert your greenscreen images to a different image with a different background. The webpage also includes a Photo hider which uses the principal of steganography to hide images within other images. So let's get started.
+      </div>
+     <div> <canvas Id = "can" class ="megaevolve2">
+      </canvas></p1>
+    </div>
+    <div Id = "megaevolve">
+      <input type = "Button" value = "Mega Evolve" onclick = "megaEvolve()" > 
+      </div>
+      <div class = "greenscreenhead" Id = "GS">
+      <h2> Green Screen Converter</h2>
+        <p1> Here is a green screen converter which uses principle of green screen to convert into a new image.</p1>
+    </div>
+    <div>
+        <img src = 'https://www.dukelearntoprogram.com//course1/example/drewRobert.png' width = "400px" height = "200px" Id ="withoutGS">
+        <img src ='https://www.dukelearntoprogram.com//course1/example/drewRobertDinos.png' width = "400px" height = "200px" Id = "withGS"
+    </div>
+    <div >
+      <canvas Id = "greenbgcan">
+      </canvas>
+      <canvas Id = "greenfgcan">
+      </canvas>
+      <input type = "file" Id ="bgimage" multiple = "false" accept = "image/*" onchange = uploadbgimage()>
+        <input type = "file" Id ="fgimage" multiple = "false" accept = "image/*" onchange = uploadfgimage()>
+      <input type = "Button" Id = "GSCON" value ="Convert to GreenScreen" onclick = "greenScreenFunction()">
+      <input type = "Button" Id = "GSRES" value ="Clear Canvas" onclick = "clearCanvas()">
+      </div>
+      <div Id = "filter">
+        <h2> Filter Applier </h2>
+        <p1> Here you can select any one filter from the different filters available</p1>
+      </div>
+      <canvas Id = "filtercan">
+        </canvas>
+          <input type = "File" Id = "finput" multiple = "false" accept = "image/*" onchange = "upload()">
+      <input type = "Button" Id = "reset" value = "Reset Image" onclick = "DoReset()">
+      <div Id = "Afilters">
+        Available Filters
+      </div>
+        <input type = "Button" Id = "greyscale" value = "Greyscale" onclick = "DoGreyScale()">
+      <input type = "Button" Id = "rainbow" value = "Rainbow" onclick = "DoRainbow()">
+       <input type = "Button" Id = "redfilter" value = "Red Filter" onclick = "redFilter()">
+       <input type = "Button" Id = "circlefilter" value = "Circle Filter" onclick = "DoCircle()">
+      <input type = "Button" Id = "blurfilter" value = "Blur filter" onclick = "DoBlur()">
+      <div Id = "div7">
+      </div>
+      <div Id = "steganography">
+        <h2> Image Hider </h2>
+        <p1> Here you can Hide an Image inside another Image</p1>
+      </div>
+      <canvas Id = "mainimagecanvas">
+      </canvas>
+      <canvas Id = "hideimagecanvas">
+      </canvas>
+      <input type = "file" Id ="mainimage" multiple = "false" accept = "image/*" onchange = mainImageUpload()>
+        <input type = "file" Id ="hideimage" multiple = "false" accept = "image/*" onchange = hideImageUpload()>
+      <input type = "Button" Id = "resetstega" value = "Reset" onclick = "resetStega()">
+      <input type = "Button" Id = "Hide" value = "Hide Image" onclick = "Hide()">
+      </body>
+      </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
