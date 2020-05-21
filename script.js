@@ -7,8 +7,11 @@ var copyhideimg = null;
 var hideimg = null;
 
 function upload(){
+  var finput = input.files[0];
+  var fr = new FileReader();
   var fileInput = document.getElementById("finput");
   img = new SimpleImage(fileInput);
+  img.src = fr.result;
   copyImg = new SimpleImage(fileInput);
   var can = document.getElementById("filtercan");
   var ctx = can.getContext("2d");
